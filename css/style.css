@@ -1,0 +1,151 @@
+.boder-radius img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+
+}
+header,footer{
+    background-color:  rgb(5, 137, 214);
+}
+header h1 {
+    color: white;
+
+}
+footer p {
+    color: white;
+
+}
+.course h1 {
+    color: blue ;
+}
+.box {
+    padding: 0;
+    border: 1px solid #000;
+    width: 220px;
+    height: 330px;
+    border-radius: 5px;
+}
+
+.box img {
+    padding: 0;
+    border: 0;
+    width: 220px;
+    height: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.soldout-course {
+    padding: 10px;
+    border: 0;
+}
+
+.soldout-course img {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+    
+}
+
+.price p {
+    text-align: right;
+    color: red;
+}
+
+.text p {
+     text-align: left;
+}
+
+.box {
+    display: inline-block ;
+    margin-right: 20px;
+    
+}
+section {
+    box-sizing: border-box;
+    display: inline-block;
+}
+html p {
+    font-family: 'Roboto', sans-serif;
+}
+header img , h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .boder-radius {
+    position: relative;
+    top: 0
+}
+header  p {
+    display: inline-block ;
+    margin: 20px;
+    position: relative;
+    left: 600px;
+    color: #fff;
+    text-decoration-color: yellow;
+}
+
+
+.list-course{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+    width: 500px;
+    height:170px;
+    overflow: hidden;
+} 
+.overflow-auto .list-course .picture img {
+    float: left;
+}
+.overflow-auto .list-course .soldout-course4 {
+    width: 250px;
+    float: right;
+    left: 0;
+    top: 0;
+}
+.our-teacher h1 {
+    color: blue;
+}
+.overflow-auto {
+    
+    height: 400px;
+    overflow: auto;
+}
+.footer-left {
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+.footer-right {
+    float: right;
+    width: 50%;
+    height: 150px;
+}
+.footer-left img{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 0 solid red;
+    border-radius: 50%;
+}
+.footer-right ul li {
+    display: block ; 
+    color: #fff;
+}
+footer{
+    overflow: hidden;
+}
+main nav {
+    padding-left: 200px;
+}
+header , footer nav {
+    padding-left: 200px;
+}
+/* head footer {
+    position: absolute;
+    left: 100px;
+} */
